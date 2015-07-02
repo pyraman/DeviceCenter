@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F0D2F71B44CFEF0027DDD0 /* client_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D2F41B44CFEF0027DDD0 /* client_main.cpp */; };
+		A5F0D2F81B44CFEF0027DDD0 /* commandline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D2F51B44CFEF0027DDD0 /* commandline.cpp */; };
+		A5F0D2F91B44CFEF0027DDD0 /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D2F61B44CFEF0027DDD0 /* console.cpp */; };
+		A5F0D2FD1B44D11F0027DDD0 /* adb_auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D2FC1B44D11F0027DDD0 /* adb_auth.cpp */; };
+		A5F0D2FF1B44D1450027DDD0 /* adb_auth_host.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D2FE1B44D1450027DDD0 /* adb_auth_host.cpp */; };
+		A5F0D3011B44D19B0027DDD0 /* adb_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3001B44D19B0027DDD0 /* adb_client.cpp */; };
+		A5F0D3031B44D1BB0027DDD0 /* transport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3021B44D1BB0027DDD0 /* transport.cpp */; };
+		A5F0D3061B44D1CD0027DDD0 /* get_my_path_darwin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3041B44D1CD0027DDD0 /* get_my_path_darwin.cpp */; };
+		A5F0D3071B44D1CD0027DDD0 /* usb_osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3051B44D1CD0027DDD0 /* usb_osx.cpp */; };
+		A5F0D3091B44D2070027DDD0 /* sockets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3081B44D2070027DDD0 /* sockets.cpp */; };
+		A5F0D30D1B44D23D0027DDD0 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D30A1B44D23D0027DDD0 /* libbase.a */; };
+		A5F0D30E1B44D23D0027DDD0 /* libcutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D30B1B44D23D0027DDD0 /* libcutils.a */; };
+		A5F0D30F1B44D23D0027DDD0 /* liblog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D30C1B44D23D0027DDD0 /* liblog.a */; };
+		A5F0D3111B44D25C0027DDD0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D3101B44D25C0027DDD0 /* CoreFoundation.framework */; };
+		A5F0D3131B44D2630027DDD0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D3121B44D2630027DDD0 /* IOKit.framework */; };
+		A5F0D3151B44D26C0027DDD0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D3141B44D26C0027DDD0 /* Carbon.framework */; };
+		A5F0D3171B44D27D0027DDD0 /* fdevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3161B44D27D0027DDD0 /* fdevent.cpp */; };
+		A5F0D3191B44D2B30027DDD0 /* transport_local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3181B44D2B30027DDD0 /* transport_local.cpp */; };
+		A5F0D31B1B44D2D70027DDD0 /* adb_listeners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D31A1B44D2D70027DDD0 /* adb_listeners.cpp */; };
+		A5F0D31D1B44D2F70027DDD0 /* adb_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D31C1B44D2F70027DDD0 /* adb_io.cpp */; };
+		A5F0D31F1B44D3150027DDD0 /* adb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D31E1B44D3150027DDD0 /* adb.cpp */; };
+		A5F0D3211B44D3340027DDD0 /* adb_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3201B44D3340027DDD0 /* adb_utils.cpp */; };
+		A5F0D3231B44D3560027DDD0 /* file_sync_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3221B44D3560027DDD0 /* file_sync_client.cpp */; };
+		A5F0D3251B44D3690027DDD0 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D3241B44D3690027DDD0 /* libcrypto.dylib */; };
+		A5F0D3271B44D3700027DDD0 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F0D3261B44D3700027DDD0 /* libssl.dylib */; };
+		A5F0D3291B44D38C0027DDD0 /* transport_usb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D3281B44D38C0027DDD0 /* transport_usb.cpp */; };
+		A5F0D32B1B44D3B80027DDD0 /* services.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D32A1B44D3B80027DDD0 /* services.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5F0D2E71B44CF920027DDD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5F0D2E91B44CF920027DDD0 /* AndroidBridge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AndroidBridge; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F0D2F41B44CFEF0027DDD0 /* client_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client_main.cpp; sourceTree = "<group>"; };
+		A5F0D2F51B44CFEF0027DDD0 /* commandline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = commandline.cpp; sourceTree = "<group>"; };
+		A5F0D2F61B44CFEF0027DDD0 /* console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = console.cpp; sourceTree = "<group>"; };
+		A5F0D2FC1B44D11F0027DDD0 /* adb_auth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb_auth.cpp; sourceTree = "<group>"; };
+		A5F0D2FE1B44D1450027DDD0 /* adb_auth_host.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb_auth_host.cpp; sourceTree = "<group>"; };
+		A5F0D3001B44D19B0027DDD0 /* adb_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb_client.cpp; sourceTree = "<group>"; };
+		A5F0D3021B44D1BB0027DDD0 /* transport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transport.cpp; sourceTree = "<group>"; };
+		A5F0D3041B44D1CD0027DDD0 /* get_my_path_darwin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = get_my_path_darwin.cpp; sourceTree = "<group>"; };
+		A5F0D3051B44D1CD0027DDD0 /* usb_osx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usb_osx.cpp; sourceTree = "<group>"; };
+		A5F0D3081B44D2070027DDD0 /* sockets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sockets.cpp; sourceTree = "<group>"; };
+		A5F0D30A1B44D23D0027DDD0 /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = ../../DeviceCenter/libs/Debug/Android/libbase.a; sourceTree = "<group>"; };
+		A5F0D30B1B44D23D0027DDD0 /* libcutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcutils.a; path = ../../DeviceCenter/libs/Debug/Android/libcutils.a; sourceTree = "<group>"; };
+		A5F0D30C1B44D23D0027DDD0 /* liblog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblog.a; path = ../../DeviceCenter/libs/Debug/Android/liblog.a; sourceTree = "<group>"; };
+		A5F0D3101B44D25C0027DDD0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A5F0D3121B44D2630027DDD0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		A5F0D3141B44D26C0027DDD0 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		A5F0D3161B44D27D0027DDD0 /* fdevent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fdevent.cpp; sourceTree = "<group>"; };
+		A5F0D3181B44D2B30027DDD0 /* transport_local.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transport_local.cpp; sourceTree = "<group>"; };
+		A5F0D31A1B44D2D70027DDD0 /* adb_listeners.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb_listeners.cpp; sourceTree = "<group>"; };
+		A5F0D31C1B44D2F70027DDD0 /* adb_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb_io.cpp; sourceTree = "<group>"; };
+		A5F0D31E1B44D3150027DDD0 /* adb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb.cpp; sourceTree = "<group>"; };
+		A5F0D3201B44D3340027DDD0 /* adb_utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adb_utils.cpp; sourceTree = "<group>"; };
+		A5F0D3221B44D3560027DDD0 /* file_sync_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_sync_client.cpp; sourceTree = "<group>"; };
+		A5F0D3241B44D3690027DDD0 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		A5F0D3261B44D3700027DDD0 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		A5F0D3281B44D38C0027DDD0 /* transport_usb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transport_usb.cpp; sourceTree = "<group>"; };
+		A5F0D32A1B44D3B80027DDD0 /* services.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = services.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F0D2E61B44CF920027DDD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F0D3151B44D26C0027DDD0 /* Carbon.framework in Frameworks */,
+				A5F0D3131B44D2630027DDD0 /* IOKit.framework in Frameworks */,
+				A5F0D3111B44D25C0027DDD0 /* CoreFoundation.framework in Frameworks */,
+				A5F0D3271B44D3700027DDD0 /* libssl.dylib in Frameworks */,
+				A5F0D3251B44D3690027DDD0 /* libcrypto.dylib in Frameworks */,
+				A5F0D30D1B44D23D0027DDD0 /* libbase.a in Frameworks */,
+				A5F0D30E1B44D23D0027DDD0 /* libcutils.a in Frameworks */,
+				A5F0D30F1B44D23D0027DDD0 /* liblog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F0D2E01B44CF920027DDD0 = {
+			isa = PBXGroup;
+			children = (
+				A5F0D3141B44D26C0027DDD0 /* Carbon.framework */,
+				A5F0D3121B44D2630027DDD0 /* IOKit.framework */,
+				A5F0D3101B44D25C0027DDD0 /* CoreFoundation.framework */,
+				A5F0D3261B44D3700027DDD0 /* libssl.dylib */,
+				A5F0D3241B44D3690027DDD0 /* libcrypto.dylib */,
+				A5F0D30A1B44D23D0027DDD0 /* libbase.a */,
+				A5F0D30B1B44D23D0027DDD0 /* libcutils.a */,
+				A5F0D30C1B44D23D0027DDD0 /* liblog.a */,
+				A5F0D2F31B44CFDF0027DDD0 /* src */,
+				A5F0D2EA1B44CF920027DDD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F0D2EA1B44CF920027DDD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D2E91B44CF920027DDD0 /* AndroidBridge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F0D2F31B44CFDF0027DDD0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0D32A1B44D3B80027DDD0 /* services.cpp */,
+				A5F0D3281B44D38C0027DDD0 /* transport_usb.cpp */,
+				A5F0D3221B44D3560027DDD0 /* file_sync_client.cpp */,
+				A5F0D3201B44D3340027DDD0 /* adb_utils.cpp */,
+				A5F0D31E1B44D3150027DDD0 /* adb.cpp */,
+				A5F0D31C1B44D2F70027DDD0 /* adb_io.cpp */,
+				A5F0D31A1B44D2D70027DDD0 /* adb_listeners.cpp */,
+				A5F0D3181B44D2B30027DDD0 /* transport_local.cpp */,
+				A5F0D3161B44D27D0027DDD0 /* fdevent.cpp */,
+				A5F0D3081B44D2070027DDD0 /* sockets.cpp */,
+				A5F0D3041B44D1CD0027DDD0 /* get_my_path_darwin.cpp */,
+				A5F0D3051B44D1CD0027DDD0 /* usb_osx.cpp */,
+				A5F0D3021B44D1BB0027DDD0 /* transport.cpp */,
+				A5F0D3001B44D19B0027DDD0 /* adb_client.cpp */,
+				A5F0D2FE1B44D1450027DDD0 /* adb_auth_host.cpp */,
+				A5F0D2FC1B44D11F0027DDD0 /* adb_auth.cpp */,
+				A5F0D2F41B44CFEF0027DDD0 /* client_main.cpp */,
+				A5F0D2F51B44CFEF0027DDD0 /* commandline.cpp */,
+				A5F0D2F61B44CFEF0027DDD0 /* console.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F0D2E81B44CF920027DDD0 /* AndroidBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F0D2F01B44CF920027DDD0 /* Build configuration list for PBXNativeTarget "AndroidBridge" */;
+			buildPhases = (
+				A5F0D2E51B44CF920027DDD0 /* Sources */,
+				A5F0D2E61B44CF920027DDD0 /* Frameworks */,
+				A5F0D2E71B44CF920027DDD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidBridge;
+			productName = AndroidBridge;
+			productReference = A5F0D2E91B44CF920027DDD0 /* AndroidBridge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F0D2E11B44CF920027DDD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Logigear;
+				TargetAttributes = {
+					A5F0D2E81B44CF920027DDD0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A5F0D2E41B44CF920027DDD0 /* Build configuration list for PBXProject "AndroidBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5F0D2E01B44CF920027DDD0;
+			productRefGroup = A5F0D2EA1B44CF920027DDD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F0D2E81B44CF920027DDD0 /* AndroidBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F0D2E51B44CF920027DDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F0D3171B44D27D0027DDD0 /* fdevent.cpp in Sources */,
+				A5F0D32B1B44D3B80027DDD0 /* services.cpp in Sources */,
+				A5F0D2F91B44CFEF0027DDD0 /* console.cpp in Sources */,
+				A5F0D2FD1B44D11F0027DDD0 /* adb_auth.cpp in Sources */,
+				A5F0D3191B44D2B30027DDD0 /* transport_local.cpp in Sources */,
+				A5F0D3091B44D2070027DDD0 /* sockets.cpp in Sources */,
+				A5F0D3211B44D3340027DDD0 /* adb_utils.cpp in Sources */,
+				A5F0D31D1B44D2F70027DDD0 /* adb_io.cpp in Sources */,
+				A5F0D3031B44D1BB0027DDD0 /* transport.cpp in Sources */,
+				A5F0D31B1B44D2D70027DDD0 /* adb_listeners.cpp in Sources */,
+				A5F0D2F71B44CFEF0027DDD0 /* client_main.cpp in Sources */,
+				A5F0D31F1B44D3150027DDD0 /* adb.cpp in Sources */,
+				A5F0D3231B44D3560027DDD0 /* file_sync_client.cpp in Sources */,
+				A5F0D3291B44D38C0027DDD0 /* transport_usb.cpp in Sources */,
+				A5F0D3061B44D1CD0027DDD0 /* get_my_path_darwin.cpp in Sources */,
+				A5F0D2FF1B44D1450027DDD0 /* adb_auth_host.cpp in Sources */,
+				A5F0D3071B44D1CD0027DDD0 /* usb_osx.cpp in Sources */,
+				A5F0D3011B44D19B0027DDD0 /* adb_client.cpp in Sources */,
+				A5F0D2F81B44CFEF0027DDD0 /* commandline.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5F0D2EE1B44CF920027DDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5F0D2EF1B44CF920027DDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5F0D2F11B44CF920027DDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Android";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					ADB_HOST,
+				);
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../base/include,
+					./,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Quan.Hoang/Desktop/Quan.Hoang/DeviceCenter/libs/Debug/Android,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5F0D2F21B44CF920027DDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Android";
+				GCC_PREPROCESSOR_DEFINITIONS = ADB_HOST;
+				HEADER_SEARCH_PATHS = (
+					../include,
+					../base/include,
+					./,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Quan.Hoang/Desktop/Quan.Hoang/DeviceCenter/libs/Debug/Android,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F0D2E41B44CF920027DDD0 /* Build configuration list for PBXProject "AndroidBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F0D2EE1B44CF920027DDD0 /* Debug */,
+				A5F0D2EF1B44CF920027DDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F0D2F01B44CF920027DDD0 /* Build configuration list for PBXNativeTarget "AndroidBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F0D2F11B44CF920027DDD0 /* Debug */,
+				A5F0D2F21B44CF920027DDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F0D2E11B44CF920027DDD0 /* Project object */;
+}

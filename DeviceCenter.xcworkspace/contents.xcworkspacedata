@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Android">
+      <FileRef
+         location = "group:../platform_system_core/liblog/liblog.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../platform_system_core/libcutils/libcutils.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../platform_system_core/base/libbase.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../platform_system_core/adb/AndroidBridge.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../platform_system_core/adb/AndroidBridgeDylib.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:libplist/libplist.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libusbmuxd/libusbmuxd.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:libimobiledevice/libimobiledevice.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ios-bridge/IOSBridge.xcodeproj">
+   </FileRef>
+</Workspace>

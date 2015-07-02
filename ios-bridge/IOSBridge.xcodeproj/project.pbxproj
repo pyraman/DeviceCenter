@@ -16,9 +16,9 @@
 		A5AF98571B429A0F0008A65E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AF98561B429A0F0008A65E /* libiconv.dylib */; };
 		A5AF985A1B429A530008A65E /* device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5AF98581B429A530008A65E /* device.cpp */; };
 		A5AF985B1B429A530008A65E /* device.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AF98591B429A530008A65E /* device.h */; };
-		A5AFC49C1B43B7EE00CE19CB /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC4991B43B7EE00CE19CB /* libimobiledevice.a */; };
-		A5AFC49D1B43B7EE00CE19CB /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC49A1B43B7EE00CE19CB /* libplist.a */; };
-		A5AFC49E1B43B7EE00CE19CB /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC49B1B43B7EE00CE19CB /* libusbmuxd.a */; };
+		A5AFC4A21B43CAF300CE19CB /* libimobiledevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC49F1B43CAF300CE19CB /* libimobiledevice.a */; };
+		A5AFC4A31B43CAF300CE19CB /* libplist.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC4A01B43CAF300CE19CB /* libplist.a */; };
+		A5AFC4A41B43CAF300CE19CB /* libusbmuxd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AFC4A11B43CAF300CE19CB /* libusbmuxd.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +35,9 @@
 		A5AF98561B429A0F0008A65E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		A5AF98581B429A530008A65E /* device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = device.cpp; path = common/device.cpp; sourceTree = "<group>"; };
 		A5AF98591B429A530008A65E /* device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = device.h; path = common/device.h; sourceTree = "<group>"; };
-		A5AFC4991B43B7EE00CE19CB /* libimobiledevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice.a; path = ../libs/Release/libimobiledevice.a; sourceTree = "<group>"; };
-		A5AFC49A1B43B7EE00CE19CB /* libplist.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplist.a; path = ../libs/Release/libplist.a; sourceTree = "<group>"; };
-		A5AFC49B1B43B7EE00CE19CB /* libusbmuxd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusbmuxd.a; path = ../libs/Release/libusbmuxd.a; sourceTree = "<group>"; };
+		A5AFC49F1B43CAF300CE19CB /* libimobiledevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimobiledevice.a; path = ../libs/Debug/libimobiledevice.a; sourceTree = "<group>"; };
+		A5AFC4A01B43CAF300CE19CB /* libplist.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplist.a; path = ../libs/Debug/libplist.a; sourceTree = "<group>"; };
+		A5AFC4A11B43CAF300CE19CB /* libusbmuxd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libusbmuxd.a; path = ../libs/Debug/libusbmuxd.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,14 +45,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AFC49C1B43B7EE00CE19CB /* libimobiledevice.a in Frameworks */,
-				A5AFC49D1B43B7EE00CE19CB /* libplist.a in Frameworks */,
-				A5AFC49E1B43B7EE00CE19CB /* libusbmuxd.a in Frameworks */,
 				A5AF98571B429A0F0008A65E /* libiconv.dylib in Frameworks */,
 				A5AF98531B4298890008A65E /* libxml2.a in Frameworks */,
 				A5AF98501B42984C0008A65E /* libcrypto.dylib in Frameworks */,
 				A5AF984E1B4298390008A65E /* libssl.dylib in Frameworks */,
 				A5AF98551B4299DE0008A65E /* libz.1.dylib in Frameworks */,
+				A5AFC4A21B43CAF300CE19CB /* libimobiledevice.a in Frameworks */,
+				A5AFC4A31B43CAF300CE19CB /* libplist.a in Frameworks */,
+				A5AFC4A41B43CAF300CE19CB /* libusbmuxd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +62,9 @@
 		A5AF98291B4285990008A65E = {
 			isa = PBXGroup;
 			children = (
-				A5AFC4991B43B7EE00CE19CB /* libimobiledevice.a */,
-				A5AFC49A1B43B7EE00CE19CB /* libplist.a */,
-				A5AFC49B1B43B7EE00CE19CB /* libusbmuxd.a */,
+				A5AFC49F1B43CAF300CE19CB /* libimobiledevice.a */,
+				A5AFC4A01B43CAF300CE19CB /* libplist.a */,
+				A5AFC4A11B43CAF300CE19CB /* libusbmuxd.a */,
 				A5AF98561B429A0F0008A65E /* libiconv.dylib */,
 				A5AF98541B4299DE0008A65E /* libz.1.dylib */,
 				A5AF98511B4298680008A65E /* libxml2.dylib */,
