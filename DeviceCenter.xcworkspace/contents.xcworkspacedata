@@ -5,19 +5,16 @@
       location = "container:"
       name = "Android">
       <FileRef
-         location = "group:../platform_system_core/liblog/liblog.xcodeproj">
+         location = "group:Android/base/libbase.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:../platform_system_core/libcutils/libcutils.xcodeproj">
+         location = "group:Android/liblog/liblog.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:../platform_system_core/base/libbase.xcodeproj">
+         location = "group:Android/libcutils/libcutils.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:../platform_system_core/adb/AndroidBridge.xcodeproj">
-      </FileRef>
-      <FileRef
-         location = "group:../platform_system_core/adb/AndroidBridgeDylib.xcodeproj">
+         location = "group:Android/adb/AndroidBridge.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
