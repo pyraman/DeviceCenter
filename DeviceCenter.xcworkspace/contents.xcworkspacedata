@@ -3,6 +3,22 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "IOS">
+      <FileRef
+         location = "group:IOS/libplist/libplist.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:IOS/libusbmuxd/libusbmuxd.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:IOS/libimobiledevice/libimobiledevice.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:IOS/IOSBirdge/IOSBridge.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "Android">
       <FileRef
          location = "group:Android/base/libbase.xcodeproj">
@@ -14,19 +30,7 @@
          location = "group:Android/libcutils/libcutils.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Android/adb/AndroidBridge.xcodeproj">
+         location = "group:Android/AndroidBidge/AndroidBridge.xcodeproj">
       </FileRef>
    </Group>
-   <FileRef
-      location = "group:libplist/libplist.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:libusbmuxd/libusbmuxd.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:libimobiledevice/libimobiledevice.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ios-bridge/IOSBridge.xcodeproj">
-   </FileRef>
 </Workspace>
